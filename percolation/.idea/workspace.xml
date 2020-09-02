@@ -45,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.PercolationVisualizer">
+  <component name="RunManager" selected="Application.PercolationStats">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="Algorithms, Part I" />
@@ -56,6 +56,12 @@
     <configuration name="Percolation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Percolation" />
       <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="2 10000" />
       <method v="2" />
     </configuration>
     <configuration name="PercolationVisualizer" type="Application" factoryName="Application">
@@ -87,22 +93,26 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="165" y="11" key="#Project_Structure/0.0.1368.872@0.0.1368.872" timestamp="1598957402683" />
-    <state width="1370" height="243" key="GridCell.Tab.0.bottom" timestamp="1598969515632">
+    <state width="1370" height="243" key="GridCell.Tab.0.bottom" timestamp="1599043592310">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="243" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1598969515632" />
-    <state width="1370" height="243" key="GridCell.Tab.0.center" timestamp="1598969515631">
+    <state width="1370" height="243" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1599043592310" />
+    <state width="1370" height="243" key="GridCell.Tab.0.center" timestamp="1599043592310">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="243" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1598969515631" />
-    <state width="1370" height="243" key="GridCell.Tab.0.left" timestamp="1598969515631">
+    <state width="1370" height="243" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1599043592310" />
+    <state width="1370" height="243" key="GridCell.Tab.0.left" timestamp="1599043592307">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="243" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1598969515631" />
-    <state width="1370" height="243" key="GridCell.Tab.0.right" timestamp="1598969515632">
+    <state width="1370" height="243" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1599043592307" />
+    <state width="1370" height="243" key="GridCell.Tab.0.right" timestamp="1599043592310">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="243" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1598969515632" />
+    <state width="1370" height="243" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1599043592310" />
+    <state x="165" y="11" key="SettingsEditor" timestamp="1599038740817">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="165" y="11" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1599038740817" />
     <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1598952991220">
       <screen x="0" y="0" width="1368" height="872" />
     </state>

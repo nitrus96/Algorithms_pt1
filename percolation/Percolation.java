@@ -2,8 +2,8 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
 
-    private WeightedQuickUnionUF grid;
-    private int width;
+    private final WeightedQuickUnionUF grid;
+    private final int width;
     private boolean[] openSites;
 
 
@@ -86,14 +86,7 @@ public class Percolation {
 
     // test client (optional)
     public static void main(String[] args) {
-        Percolation ohm = new Percolation(5);
-        ohm.open(1, 3);
-        ohm.open(2, 3);
-        ohm.open(3, 3);
-        ohm.open(3, 4);
-        ohm.open(4, 4);
-        ohm.open(5, 3);
-        System.out.println(ohm.percolates());
+        // some test
     }
 }
 
