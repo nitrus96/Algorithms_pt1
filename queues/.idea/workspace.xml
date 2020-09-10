@@ -37,14 +37,27 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LinkedStack.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Permutation">
     <configuration name="Deque" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Deque" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Permutation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="3 &lt; distinct.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomizedQueue" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -66,22 +79,22 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="465" y="191" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1599649081774" />
-    <state width="1370" height="301" key="GridCell.Tab.0.bottom" timestamp="1599664542169">
+    <state width="1370" height="233" key="GridCell.Tab.0.bottom" timestamp="1599737985531">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="301" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1599664542169" />
-    <state width="1370" height="301" key="GridCell.Tab.0.center" timestamp="1599664542169">
+    <state width="1370" height="233" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1599737985531" />
+    <state width="1370" height="233" key="GridCell.Tab.0.center" timestamp="1599737985531">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="301" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1599664542169" />
-    <state width="1370" height="301" key="GridCell.Tab.0.left" timestamp="1599664542169">
+    <state width="1370" height="233" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1599737985531" />
+    <state width="1370" height="233" key="GridCell.Tab.0.left" timestamp="1599737985531">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="301" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1599664542169" />
-    <state width="1370" height="301" key="GridCell.Tab.0.right" timestamp="1599664542169">
+    <state width="1370" height="233" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1599737985531" />
+    <state width="1370" height="233" key="GridCell.Tab.0.right" timestamp="1599737985531">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="301" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1599664542169" />
+    <state width="1370" height="233" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1599737985531" />
     <state width="1370" height="301" key="GridCell.Tab.1.bottom" timestamp="1599664542170">
       <screen x="0" y="0" width="1368" height="872" />
     </state>

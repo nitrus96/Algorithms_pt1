@@ -1,9 +1,3 @@
-/* *****************************************************************************
- *  Name:
- *  Date:
- *  Description:
- **************************************************************************** */
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -65,7 +59,6 @@ public class Deque<Item> implements Iterable<Item> {
             oldlast.next = last;
             size++;
         }
-
     }
 
     // remove and return the item from the front
@@ -168,7 +161,5 @@ public class Deque<Item> implements Iterable<Item> {
         for (int i : deque) {
             System.out.print(i + " ");
         }
-
     }
-
 }
