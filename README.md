@@ -18,33 +18,24 @@ Deque API:
 ```
 public class Deque<Item> implements Iterable<Item> {
 
-    // construct an empty deque
-    public Deque()
+    public Deque()    // construct an empty deque
 
-    // is the deque empty?
-    public boolean isEmpty()
+    public boolean isEmpty()    // is the deque empty?
+    
+    public int size()    // return the number of items on the deque
 
-    // return the number of items on the deque
-    public int size()
+    public void addFirst(Item item)    // add the item to the front
+    
+    public void addLast(Item item)    // add the item to the back
 
-    // add the item to the front
-    public void addFirst(Item item)
+    public Item removeFirst()    // remove and return the item from the front
 
-    // add the item to the back
-    public void addLast(Item item)
+    public Item removeLast()    // remove and return the item from the back
 
-    // remove and return the item from the front
-    public Item removeFirst()
-
-    // remove and return the item from the back
-    public Item removeLast()
-
-    // return an iterator over items in order from front to back
-    public Iterator<Item> iterator()
-
-    // unit testing 
-    public static void main(String[] args)
-
+    public Iterator<Item> iterator()    // return an iterator over items in order from front to back
+    
+    public static void main(String[] args)    // unit testing 
+ 
 }
 ```
 
@@ -52,29 +43,21 @@ Randomized Queue API:
 ```
 public class RandomizedQueue<Item> implements Iterable<Item> {
 
-    // construct an empty randomized queue
-    public RandomizedQueue()
+    public RandomizedQueue()     // construct an empty randomized queue
 
-    // is the randomized queue empty?
-    public boolean isEmpty()
+    public boolean isEmpty()    // is the randomized queue empty?
 
-    // return the number of items on the randomized queue
-    public int size()
+    public int size()    // return the number of items on the randomized queue
 
-    // add the item
-    public void enqueue(Item item)
+    public void enqueue(Item item)    // add the item
 
-    // remove and return a random item
-    public Item dequeue()
+    public Item dequeue()    // remove and return a random item
 
-    // return a random item (but do not remove it)
-    public Item sample()
+    public Item sample()    // return a random item (but do not remove it)
 
-    // return an independent iterator over items in random order
-    public Iterator<Item> iterator()
+    public Iterator<Item> iterator()    // return an independent iterator over items in random order
 
-    // unit testing 
-    public static void main(String[] args)
-
+    public static void main(String[] args)    // unit testing 
+    
 }
 ```
