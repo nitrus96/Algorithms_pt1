@@ -90,7 +90,7 @@ public class Point implements Comparable<Point> {
 
         if (this.y == that.y) {
             if (this.x < that.x) return 1;
-            else if (this.x == that.y) return 0;
+            else if (this.x == that.x) return 0;
         }
         return 1;
     }
@@ -146,7 +146,7 @@ public class Point implements Comparable<Point> {
 
         p2 = new Point(0, -20);
         assert p1.slopeTo(p2) == Double.POSITIVE_INFINITY;
-        
+
         p2 = new Point(10, 10);
         assert p1.slopeTo(p2) == 1.0;
 
