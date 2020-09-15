@@ -44,11 +44,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.BruteCollinearPoints">
+  <component name="RunManager" selected="Application.FastCollinearPoints">
     <configuration name="BruteCollinearPoints" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="BruteCollinearPoints" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="resources/input9.txt" />
+      <option name="PROGRAM_PARAMETERS" value="resources/input8.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FastCollinearPoints" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="FastCollinearPoints" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="resources/input400.txt" />
       <method v="2" />
     </configuration>
     <configuration name="Point" type="Application" factoryName="Application">
@@ -70,21 +76,25 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1356" height="113" key="GridCell.Tab.0.bottom" timestamp="1600171847462">
+    <state width="1356" height="192" key="GridCell.Tab.0.bottom" timestamp="1600187815686">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1356" height="113" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1600171847462" />
-    <state width="1356" height="113" key="GridCell.Tab.0.center" timestamp="1600171847462">
+    <state width="1356" height="192" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1600187815686" />
+    <state width="1356" height="192" key="GridCell.Tab.0.center" timestamp="1600187815686">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1356" height="113" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1600171847462" />
-    <state width="1356" height="113" key="GridCell.Tab.0.left" timestamp="1600171847462">
+    <state width="1356" height="192" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1600187815686" />
+    <state width="1356" height="192" key="GridCell.Tab.0.left" timestamp="1600187815686">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1356" height="113" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1600171847462" />
-    <state width="1356" height="113" key="GridCell.Tab.0.right" timestamp="1600171847462">
+    <state width="1356" height="192" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1600187815686" />
+    <state width="1356" height="192" key="GridCell.Tab.0.right" timestamp="1600187815686">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1356" height="113" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1600171847462" />
+    <state width="1356" height="192" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1600187815686" />
+    <state x="352" y="192" width="672" height="678" key="search.everywhere.popup" timestamp="1600185567354">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="352" y="192" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1600185567354" />
   </component>
 </project>

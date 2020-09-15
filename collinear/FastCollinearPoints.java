@@ -4,14 +4,15 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
-public class BruteCollinearPoints {
+public class FastCollinearPoints {
     private final LineSegment[] lineSegments;
 
     /**
-     * finds all line segments containing 4 points
+     * finds all line segments containing 4 or more points
      */
-    public BruteCollinearPoints(Point[] points) {
+    public FastCollinearPoints(Point[] points) {
         ArrayList<LineSegment> tmpLineSegments = new ArrayList<>();
 
         if (points == null) {
@@ -32,30 +33,52 @@ public class BruteCollinearPoints {
             }
         }
 
+        // sort points by natural order
         Arrays.sort(points);
+        Point[] pointsCopy = points.clone();
 
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                for (int k = j + 1; k < n; k++) {
-                    for (int m = k + 1; m < n; m++) {
-                        Point p1 = points[i];
-                        Point p2 = points[j];
-                        Point p3 = points[k];
-                        Point p4 = points[m];
+        for (Point p : points) {
+            // sort points wrt to p
+            Arrays.sort(pointsCopy, p.slopeOrder());
 
-                        double s1 = p1.slopeTo(p2);
-                        double s2 = p1.slopeTo(p3);
-                        double s3 = p1.slopeTo(p4);
+            // store points that form a line
+            ArrayList<Point> slopeList = new ArrayList<>();
+            double currentSlope;
+            double previousSlope = Double.NEGATIVE_INFINITY;
 
-                        if (s1 != s2) continue;
-                        if (s2 == s3) {
-                            tmpLineSegments.add(new LineSegment(p1, p4));
-                        }
-                    }
+            // i = 0 would compare a point with itself, so indexing starts from 1
+            for (int i = 1; i < n; i++) {
+                currentSlope = p.slopeTo(pointsCopy[i]);
+                slopeList.add(pointsCopy[i - 1]);
+
+                if (currentSlope != previousSlope) {
+                    addLine(slopeList, p, tmpLineSegments);
+                    slopeList.clear();
                 }
+                previousSlope = currentSlope;
+            }
+            slopeList.add(pointsCopy[n - 1]);
+            addLine(slopeList, p, tmpLineSegments);
+        }
+        // convert arraylist to array
+        lineSegments = tmpLineSegments.toArray(new LineSegment[0]);
+    }
+
+
+    /**
+     * constructor helper function
+     * decides whether a given line should be added to the line segment array
+     */
+    private void addLine(ArrayList<Point> slopeList, Point p,
+                         ArrayList<LineSegment> tmpLineSegments) {
+        if (slopeList.size() >= 3) {
+            Collections.sort(slopeList);
+            Point minPoint = slopeList.get(0);
+            if (p.compareTo(minPoint) < 0) {
+                Point maxPoint = slopeList.get(slopeList.size() - 1);
+                tmpLineSegments.add(new LineSegment(p, maxPoint));
             }
         }
-        lineSegments = tmpLineSegments.toArray(new LineSegment[0]);
     }
 
     /**
@@ -72,6 +95,9 @@ public class BruteCollinearPoints {
         return lineSegments.clone();
     }
 
+    /**
+     * test client
+     */
     public static void main(String[] args) {
 
         // read the n points from a file
@@ -95,7 +121,7 @@ public class BruteCollinearPoints {
         StdDraw.show();
 
         // print and draw the line segments
-        BruteCollinearPoints collinear = new BruteCollinearPoints(points);
+        FastCollinearPoints collinear = new FastCollinearPoints(points);
         for (LineSegment segment : collinear.segments()) {
             StdOut.println(segment);
             segment.draw();
