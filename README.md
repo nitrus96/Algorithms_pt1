@@ -5,11 +5,11 @@ Programming assignments for Princeton University's "Algorithms, Part 1" course
 Set-up:
 
 * Load *percolation* folder as a project in Intellij IDEA (sets path to algs4 API)
+* Build project
   
 To visualise percolation grid:
 
-
-* Open *PercolationVisualizer.java*, click LIFT > Compile, then LIFT > Run with Arguments
+* Open *PercolationVisualizer.java*, then LIFT > Run with Arguments
 * Input "resources/file_name_here.txt" as an argument to visualise the percolation grid
   
 # Week 2: Queues
@@ -61,3 +61,16 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     
 }
 ```
+# Week 3: Collinear Points
+Given a set of n distinct points in the plane, find every (maximal) line segment that connects a subset of 4 or more of the points. 
+
+Set-up:
+
+* Load *collinear* folder as a project in Intellij IDEA (sets path to algs4 API)
+* Build project
+  
+To visualise line segments:
+
+* Open *FastCollinearPoints.java*, click LIFT > Run with Arguments
+* Input "resources/file_name_here.txt" as an argument to visualise line segments (try out rs1423.txt!)
+
