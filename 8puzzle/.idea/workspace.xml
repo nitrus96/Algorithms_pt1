@@ -32,12 +32,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="582" />
-    <option name="y" value="36" />
-    <option name="width" value="1390" />
-    <option name="height" value="1754" />
-  </component>
   <component name="ProjectId" id="1iKMIrbDzydKuMSXYST4GlnuZrY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,11 +49,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.BoardB">
+  <component name="RunManager" selected="Application.Board">
     <configuration name="Board" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Board" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="resources/puzzle33.txt" />
+      <option name="PROGRAM_PARAMETERS" value="resources/puzzle3x3-00.txt" />
       <method v="2" />
     </configuration>
     <configuration name="BoardB" type="Application" factoryName="Application">
@@ -100,21 +94,21 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1370" height="232" key="GridCell.Tab.0.bottom" timestamp="1601677965125">
+    <state width="1370" height="232" key="GridCell.Tab.0.bottom" timestamp="1601733188867">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="232" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1601677965125" />
-    <state width="1370" height="232" key="GridCell.Tab.0.center" timestamp="1601677965125">
+    <state width="1370" height="232" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1601733188867" />
+    <state width="1370" height="232" key="GridCell.Tab.0.center" timestamp="1601733188867">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="232" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1601677965125" />
-    <state width="1370" height="232" key="GridCell.Tab.0.left" timestamp="1601677965125">
+    <state width="1370" height="232" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1601733188867" />
+    <state width="1370" height="232" key="GridCell.Tab.0.left" timestamp="1601733188867">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="232" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1601677965125" />
-    <state width="1370" height="232" key="GridCell.Tab.0.right" timestamp="1601677965125">
+    <state width="1370" height="232" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1601733188867" />
+    <state width="1370" height="232" key="GridCell.Tab.0.right" timestamp="1601733188867">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1370" height="232" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1601677965125" />
+    <state width="1370" height="232" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1601733188867" />
   </component>
 </project>
