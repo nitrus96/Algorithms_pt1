@@ -15,11 +15,14 @@ public class Board {
     private int zeroRow;
     private int zeroCol;
 
+    private Board twinBoard;
+
     // private int hamming;
 
     // create a board from an n-by-n array of tiles,
     // where tiles[row][col] = tile at (row, col)
     public Board(int[][] tiles) {
+        if (tiles == null) throw new IllegalArgumentException("Can't be null");
         n = tiles.length;
         this.tiles = new int[n][n];
 
@@ -130,6 +133,8 @@ public class Board {
 
     // a board that is obtained by exchanging any pair of tiles
     public Board twin() {
+        if (twinBoard != null) return twinBoard;
+
         int[][] twinTiles = tilesCopy();
         int[] firstLoc = new int[2];
         int first = 0;
@@ -141,7 +146,7 @@ public class Board {
             firstLoc[1] = StdRandom.uniform(n);
             first = tiles[firstLoc[0]][firstLoc[1]];
         }
-        while (second == 0) {
+        while (second == 0 || second == first) {
             secondLoc[0] = StdRandom.uniform(n);
             secondLoc[1] = StdRandom.uniform(n);
             second = tiles[secondLoc[0]][secondLoc[1]];
@@ -149,7 +154,8 @@ public class Board {
 
         twinTiles[firstLoc[0]][firstLoc[1]] = second;
         twinTiles[secondLoc[0]][secondLoc[1]] = first;
-        return new Board(twinTiles);
+        twinBoard = new Board(twinTiles);
+        return twinBoard;
     }
 
 
