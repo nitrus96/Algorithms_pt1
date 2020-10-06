@@ -107,5 +107,5 @@ To visualise the set of points contained within a user-defined rectangle:
 
 To visualise the nearest neighbor of a user-defined point on a plane:
 
-* Open *RangeSearchVisualizer.java*, click LIFT > Run with Arguments
+* Open *NearestNeighborVisualizer.java*, click LIFT > Run with Arguments
 * Input "resources/file_name_here.txt" as an argument to run an interactive StdDraw session
