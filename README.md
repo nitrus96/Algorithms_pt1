@@ -76,7 +76,7 @@ To visualise line segments:
 * Open *FastCollinearPoints.java*, click LIFT > Run with Arguments
 * Input "resources/file_name_here.txt" as an argument to visualise line segments (try out rs1423.txt!)
 
-# Week 3: Slider Puzzle (8 Puzzle)
+# Week 4: Slider Puzzle (8 Puzzle)
 The 8-puzzle is a sliding puzzle that is played on a 3-by-3 grid with 8 square tiles labeled 1 through 8, plus a blank square. The goal is to rearrange the tiles so that they are in row-major order, using as few moves as possible. You are permitted to slide tiles either horizontally or vertically into the blank square. The solution to the 8-puzzle problem illustrates a general artificial intelligence methodology known as the A* search algorithm implemented with a priority queue.
 
 Set-up:
@@ -88,3 +88,24 @@ To get the sequence of board states corresponding to the shortest path to the so
 
 * Open *Solver.java*, click LIFT > Run with Arguments
 * Input "resources/file_name_here.txt" as an argument to print the sequence to STDOUT
+
+# Week 5: Kd-Trees
+
+***range* and *nearest* methods in KdTree.java are based on the solution by GitHub user Megha Jakhotia https://github.com/MeghaJakhotia**
+
+Kd-Tree is a data type used to represent a set of points in the unit square (all points have x- and y-coordinates between 0 and 1) using a 2d-tree to support efficient range search (find all of the points contained in a query rectangle) and nearest-neighbor search (find a closest point to a query point). 2d-trees have numerous applications, ranging from classifying astronomical objects to computer animation to speeding up neural networks to mining data to image retrieval. 
+
+Set-up:
+
+* Load *kdtree* folder as a project in Intellij IDEA (sets path to algs4 API)
+* Build project
+  
+To visualise the set of points contained within a user-defined rectangle:
+
+* Open *RangeSearchVisualizer.java*, click LIFT > Run with Arguments
+* Input "resources/file_name_here.txt" as an argument to run an interactive StdDraw session
+
+To visualise the nearest neighbor of a user-defined point on a plane:
+
+* Open *RangeSearchVisualizer.java*, click LIFT > Run with Arguments
+* Input "resources/file_name_here.txt" as an argument to run an interactive StdDraw session
